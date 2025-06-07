@@ -14,10 +14,6 @@ from hkdf import Hkdf
 from Crypto.Cipher import AES
 
 # ────── Config ─────────────────────────────────────────────────────
-openai.api_key = ''
-ASSISTANT_ID = ""
-client = openai.Client(api_key='')
-
 
 # ────── SQLite (threads) ───────────────────────────────────────────
 DB_PATH = "threads.db"
